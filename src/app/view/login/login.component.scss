@@ -1,0 +1,30 @@
+:host {
+  // .grid{
+  //   background-image: url("../../../assets/pngtree-ferrari-wallpaper-on-the-side-of-another-street-picture-image_2875633.jpg");
+  //   background-repeat: no-repeat;
+  //   background-attachment: fixed;
+  //   background-size: cover;
+  //   opacity: 0.95;
+  // }
+  $background-color: #252525 !important;
+  $font-color: #fff !important;
+  
+ 
+  ::ng-deep {
+   
+    .p-card {
+      border-radius: 10px;
+      background-color: $background-color;
+      color: $font-color;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    .card{
+      margin-top: 4em;
+    }
+
+  }
+}

@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+body{
+    background-image: url("./assets/pngtree-ferrari-wallpaper-on-the-side-of-another-street-picture-image_2875633.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
